@@ -1,0 +1,15 @@
+digraph {
+	rankdir=LR
+	q1
+	q2
+	q3
+	q0 [shape=doublecircle]
+	q0 -> q1 [label=0]
+	q0 -> q2 [label=1]
+	q1 -> q0 [label=0]
+	q1 -> q3 [label=1]
+	q2 -> q3 [label=0]
+	q2 -> q0 [label=1]
+	q3 -> q2 [label=0]
+	q3 -> q1 [label=1]
+}
